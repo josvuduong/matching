@@ -1,0 +1,79 @@
+/*@font-face{
+	font-family: study_english;
+	src:url(../fonts/study_english.woff2) format("woff2"),
+	url(../fonts/study_english.woff) format("woff")
+	}*/
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700&subset=vietnamese');
+
+	body{
+		font-family: 'Open Sans', sans-serif;
+		position: relative;
+		font-size: 17px;
+	}
+	.rs{
+		margin: 0;padding: 0;
+	}
+	.cf::before, .cf::after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.display_flex{
+		display: flex;
+		-webkit-display: flex;
+		-moz-display: flex;
+	}
+	.flex_center{
+		display: flex;
+		-webkit-display: flex;
+		-moz-display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	a, a:hover{
+		text-decoration: none !important;
+		transition: 0.4s;
+		-webkit-transition: 0.4s;
+		-moz-transition: 0.4s;
+	}
+	h1{
+		font-size: 30px;
+	}
+	header {
+		background: #0790ff;
+	}
+	#header-1{
+		font-size: 25px;
+		position: relative;
+	}
+	#header-1 p{
+		position: absolute;
+	    background: red;
+	    color: white;
+	    height: 15px;
+	    width: 15px;
+	    text-align: center;
+	    border-radius: 25px 25px;
+	    font-size: 10px;
+	    top: 0;
+	    left: 30px;
+	}
+	#header-1 a i{
+		color: #fff;
+	}
+	.row-header-1{
+		padding: 3px 0px;
+	}
+	#header-2 p {
+		text-align: center;
+		color:#fff;
+		margin-top: 3px;
+	}
+	#header-2 {
+		margin-top: 5px;
+	}
+	#header-3 img{
+		width: 41px;
+    float: right;
+	}
+	
